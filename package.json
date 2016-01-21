@@ -1,6 +1,6 @@
 {
   "name": "semver-first-satisfied",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Find minimum in an array of version that satisfies a semver range",
   "repository": "parro-it/semver-first-satisfied",
   "license": "MIT",
@@ -8,7 +8,13 @@
   "scripts": {
     "test": "eslint . && node test | faucet"
   },
-  "keywords": ["semver", "satisfies", "min", "first", "minimum"],
+  "keywords": [
+    "semver",
+    "satisfies",
+    "min",
+    "first",
+    "minimum"
+  ],
   "engines": {
     "node": ">=5"
   },
