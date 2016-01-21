@@ -1,7 +1,7 @@
 {
   "name": "semver-first-satisfied",
   "version": "0.0.1",
-  "description": "",
+  "description": "Find minimum in an array of version that satisfies a semver range",
   "repository": "parro-it/semver-first-satisfied",
   "license": "MIT",
   "author": "parro-it",
@@ -23,5 +23,9 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "semver": "^5.1.0",
+    "semver-max": "^1.0.0"
+  }
 }
