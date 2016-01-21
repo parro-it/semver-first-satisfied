@@ -20,7 +20,7 @@ npm install --save semver-first-satisfied
   const firstSatisfied = require('semver-first-satisfied');
   console.log(firstSatisfied('^1.1.0', ['0.5.0', '1.1.4', '1.2.3', '1.1.1']));
 ```
-> > '1.1.1'
+> '1.1.1'
 
 ## License
 
