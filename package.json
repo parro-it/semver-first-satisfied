@@ -8,7 +8,7 @@
   "scripts": {
     "test": "eslint . && node test | faucet"
   },
-  "keywords": [],
+  "keywords": ["semver", "satisfies", "min", "first", "minimum"],
   "engines": {
     "node": ">=5"
   },
